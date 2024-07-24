@@ -1,0 +1,26 @@
+<div class="content-button">
+                    <button>3 horas</button>
+                    <button>1 dia</button>
+                    <button>7 dias</button>
+                    <button>15 dias</button>
+                    <button>30 dias</button>
+                    <button>LIFETIME</button>
+                </div>
+
+.content-button{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.content-button button{
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid purple;
+    color: white;
+    background-color: rgb(17, 17, 17);
+}
+.content-button button:hover{
+    background-color: purple;
+}
